@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://github.com/jeresig/processing-js/raw/master/processing.js"></script>
+</head>
+<body>
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <script src="sierpinski-triangle.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var canvas = document.getElementById("canvas");
+    new Processing(canvas, sierpinskiTriangle);
+  </script>
+  </body>
+</html>
