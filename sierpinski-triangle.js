@@ -34,6 +34,7 @@ function sierpinskiTriangle(proc) {
       drawPoint(points[i]);
     }
   }
+
   proc.stroke(0);
 
   proc.draw = function() {
